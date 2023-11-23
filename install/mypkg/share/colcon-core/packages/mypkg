@@ -1,1 +1,1 @@
-setuptools
+launch_ros:rclpy:std_msgs
