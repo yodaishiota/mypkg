@@ -1,0 +1,43 @@
+[1.099s] Invoking command in '/home/shio2233/ros2_ws/src/mypkg': PYTHONPATH=/home/shio2233/ros2_ws/src/mypkg/build/mypkg/prefix_override:/home/shio2233/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/shio2233/ros2_ws/src/mypkg/build/mypkg/build install --record /home/shio2233/ros2_ws/src/mypkg/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed
+[1.395s] running egg_info
+[1.396s] creating build/mypkg/mypkg.egg-info
+[1.396s] writing build/mypkg/mypkg.egg-info/PKG-INFO
+[1.397s] writing dependency_links to build/mypkg/mypkg.egg-info/dependency_links.txt
+[1.397s] writing entry points to build/mypkg/mypkg.egg-info/entry_points.txt
+[1.398s] writing requirements to build/mypkg/mypkg.egg-info/requires.txt
+[1.398s] writing top-level names to build/mypkg/mypkg.egg-info/top_level.txt
+[1.400s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.452s] reading manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.453s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.453s] running build
+[1.454s] running build_py
+[1.455s] creating /home/shio2233/ros2_ws/src/mypkg/build/mypkg/build
+[1.455s] creating /home/shio2233/ros2_ws/src/mypkg/build/mypkg/build/lib
+[1.456s] creating /home/shio2233/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[1.456s] copying mypkg/talker.py -> /home/shio2233/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[1.456s] copying mypkg/listener.py -> /home/shio2233/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[1.457s] copying mypkg/__init__.py -> /home/shio2233/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[1.457s] running install
+[1.458s] running install_lib
+[1.459s] creating /home/shio2233/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg
+[1.460s] copying /home/shio2233/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/talker.py -> /home/shio2233/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg
+[1.460s] copying /home/shio2233/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/listener.py -> /home/shio2233/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg
+[1.461s] copying /home/shio2233/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/__init__.py -> /home/shio2233/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg
+[1.461s] byte-compiling /home/shio2233/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg/talker.py to talker.cpython-38.pyc
+[1.463s] byte-compiling /home/shio2233/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg/listener.py to listener.cpython-38.pyc
+[1.464s] byte-compiling /home/shio2233/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg/__init__.py to __init__.cpython-38.pyc
+[1.465s] running install_data
+[1.465s] creating /home/shio2233/ros2_ws/src/mypkg/install/mypkg/share
+[1.466s] creating /home/shio2233/ros2_ws/src/mypkg/install/mypkg/share/ament_index
+[1.467s] creating /home/shio2233/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index
+[1.467s] creating /home/shio2233/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages
+[1.467s] copying resource/mypkg -> /home/shio2233/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages
+[1.467s] creating /home/shio2233/ros2_ws/src/mypkg/install/mypkg/share/mypkg
+[1.468s] copying package.xml -> /home/shio2233/ros2_ws/src/mypkg/install/mypkg/share/mypkg
+[1.468s] running install_egg_info
+[1.470s] Copying build/mypkg/mypkg.egg-info to /home/shio2233/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info
+[1.472s] running install_scripts
+[1.498s] Installing listener script to /home/shio2233/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[1.498s] Installing talker script to /home/shio2233/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[1.499s] writing list of installed files to '/home/shio2233/ros2_ws/src/mypkg/build/mypkg/install.log'
+[1.524s] Invoked command in '/home/shio2233/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/shio2233/ros2_ws/src/mypkg/build/mypkg/prefix_override:/home/shio2233/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/shio2233/ros2_ws/src/mypkg/build/mypkg/build install --record /home/shio2233/ros2_ws/src/mypkg/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed
