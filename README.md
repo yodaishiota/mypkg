@@ -30,19 +30,19 @@ $ source ~/.bashrc
 ### talkerとlistenerを個別で立ち上げる方法
 こちらの方法では、talkerを立ち上げる端末とlistenerを立ち上げる端末の計２つの端末が必要です。
 #### 実行手順
-* 端末1で以下のコードを実行してtalkerを立ち上げます。
-```
-$ ros2 run mypkg talker
-```
-画面には何も表示されません。
-* 端末2で以下のコードを実行し、listenerを立ち上げます。
-```
-$ ros2 run mypkg listener
-```
-* 出力結果
-```
-
-```
+> * 端末1で以下のコードを実行してtalkerを立ち上げます。
+> ```
+> $ ros2 run mypkg talker
+> ```
+> 画面には何も表示されません。
+> * 端末2で以下のコードを実行し、listenerを立ち上げます。
+> ```
+> $ ros2 run mypkg listener
+> ```
+> * 出力結果
+> ```
+> 
+> ```
 
 ### launchで一度に立ち上げる方法
 この方法では、talkerとlistenerを一つの端末で一度に実行することが可能です。
