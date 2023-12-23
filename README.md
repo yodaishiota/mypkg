@@ -1,6 +1,6 @@
 # robosys2023 ros2 talker listener
 
-ロボットシステム学　課題2提出用リポジトリ
+このレポジトリは、ロボットシステム学の課題2提出用リポジトリです。
 
 [![test](https://github.com/yodaishiota/robosys2023_mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/yodaishiota/robosys2023_mypkg/actions/workflows/test.yml)
 
@@ -15,9 +15,6 @@ ros2がインストールされていなければ最初にros2のインストー
 $ mkdir -p ros2_ws/src
 $ cd ros2_ws/src
 $ git clone https://github.com/yodaishiota/robosys2023_mypkg.git
-$ cd ~/ros2_ws
-$ colcon build
-$ source ~/.bashrc
 ```
 さらに以下のコードを実行することで、事前準備が完了します。
 ```
@@ -46,18 +43,18 @@ $ source ~/.bashrc
 
 ### launchで一度に立ち上げる方法
 この方法では、talkerとlistenerを一つの端末で一度に実行することが可能です。
-* コマンド
-```
-$ ros2 launch mypkg talk_listen.launch.py
-```
-* 出力結果
-```
-[listener-2] [INFO] [1703356758.452571533] [listener]: Listen: 0
-[listener-2] [INFO] [1703356758.946440279] [listener]: Listen: 1
-[listener-2] [INFO] [1703356759.446384256] [listener]: Listen: 2
-[listener-2] [INFO] [1703356759.946393187] [listener]: Listen: 3
-...
-```
+> * コマンド
+> ```
+> $ ros2 launch mypkg talk_listen.launch.py
+> ```
+> * 出力結果
+> ```
+> [listener-2] [INFO] [1703356758.452571533] [listener]: Listen: 0
+> [listener-2] [INFO] [1703356758.946440279] [listener]: Listen: 1
+> [listener-2] [INFO] [1703356759.446384256] [listener]: Listen: 2
+> [listener-2] [INFO] [1703356759.946393187] [listener]: Listen: 3
+> ...
+> ```
 
 ## トピック
 
