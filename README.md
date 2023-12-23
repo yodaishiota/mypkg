@@ -8,21 +8,27 @@
 パブリッシャーのtalkerとサブスクライバーのlistener間の通信の様子を確認する
 
 ## 事前準備
-ros2がインストールされていなければ最初にros2のインストールを行ってください。
+> ros2がインストールされていなければ最初にros2のインストールを行ってください。
+>
+> 以下のコードを実行し、ワークスペースを作成して本レポジトリをクローンしてください。
+> ```
+> $ mkdir -p ros2_ws/src
+> $ cd ros2_ws/src
+> $ git clone https://github.com/yodaishiota/robosys2023_mypkg.git
+> ```
+> さらに以下のコードを実行することで、事前準備が完了します。
+> ```
+> $ cd ~/ros2_ws
+> $ colcon build
+> $ source ~/.bashrc
+> ```
 
-以下のコードを実行し、ワークスペースを作成して本レポジトリをクローンしてください。
-```
-$ mkdir -p ros2_ws/src
-$ cd ros2_ws/src
-$ git clone https://github.com/yodaishiota/robosys2023_mypkg.git
-```
-さらに以下のコードを実行することで、事前準備が完了します。
-```
-$ cd ~/ros2_ws
-$ colcon build
-$ source ~/.bashrc
-```
+## ノード
+### talker
+実行すると、0.5秒間に1ずつカウントしてトピック/countupを通じてメッセージを送信します。
 
+### listener
+実行すると、countupからメッセージを受信し表示します。
 ## 使用方法
 ### talkerとlistenerを個別で立ち上げる方法
 こちらの方法では、talkerを立ち上げる端末とlistenerを立ち上げる端末の計２つの端末が必要です。
@@ -40,6 +46,7 @@ $ source ~/.bashrc
 > ```
 > 
 > ```
+この結果が確認できれば正常に動作しています。
 
 ### launchで一度に立ち上げる方法
 この方法では、talkerとlistenerを一つの端末で一度に実行することが可能です。
@@ -55,6 +62,7 @@ $ source ~/.bashrc
 > [listener-2] [INFO] [1703356759.946393187] [listener]: Listen: 3
 > ...
 > ```
+この方法でも動作は確認できます。
 
 ## トピック
 
