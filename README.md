@@ -27,7 +27,6 @@ $ source ~/.bashrc
 ```
 
 ## 使用方法
-talkerを立ち上げる端末とlistenerを立ち上げる端末の計２つの端末が必要です。
 ### talkerとlistenerを個別で立ち上げる方法
 こちらの方法では、talkerを立ち上げる端末とlistenerを立ち上げる端末の計２つの端末が必要です。
 #### 実行手順
