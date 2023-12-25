@@ -1,3 +1,5 @@
+# SPDX-FileCopyright Text: 2023 Yodai Shiota
+# SPDX-License-Identifier: BSD-3-Clause
 #!/bin/bash
 
 dir=~
