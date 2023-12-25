@@ -14,7 +14,7 @@
 > ```
 > $ mkdir -p ros2_ws/src
 > $ cd ros2_ws/src
-> $ git clone https://github.com/yodaishiota/robosys2023_mypkg.git
+> $ git clone https://github.com/yodaishiota/mypkg.git
 > ```
 > さらに以下のコードを実行することで、事前準備が完了します。
 > ```
