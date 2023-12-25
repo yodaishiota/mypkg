@@ -8,7 +8,7 @@
 パブリッシャーのtalkerとサブスクライバーのlistener間の通信の様子を確認する
 
 ## 事前準備
-> ros2がインストールされていなければ最初にros2のインストールを行ってください。
+> ROS 2がインストールされていなければ最初にROS 2のインストールを行ってください。
 >
 > 以下のコードを実行し、ワークスペースを作成して本レポジトリをクローンしてください。
 > ```
@@ -74,9 +74,17 @@
 > ```
 こちらの方法でも同様の動作が確認できます。
 
-# テスト環境
+# 開発環境
 Ubuntu 20.04
+ROS 2 Foxy
+
+# テスト環境
+Ubuntu 22.04
+ROS 2 Humble
+
 
 # ライセンス
 * このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます。
+* このパッケージのコードは、下記のスライド群 (CC-BY-SA 4.0 by Ryuichi Ueda) のlesson8,lesson10,lesson11のものを、本人の許可を得て自身の著作としたものです。
+	* [ryuichiueda/my_slides robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
 * © 2023 Yodai Shiota
