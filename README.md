@@ -25,6 +25,8 @@
 
 ## トピック
 ### countup
+* talkerからlistenerにメッセージを送る際に使用する流路。
+* 今回使用しているメッセージの型は16ビット符号つき整数になっています。
 
 ## ノード
 ### talker
@@ -77,12 +79,13 @@
 # 開発環境
 * Ubuntu 20.04
 * ROS 2 Foxy
-
+* Python 3.8.10
+ 
 # テスト環境
 * Ubuntu 22.04
 * ROS 2 Humble
 
-# ライセンス
+# 著作権・ライセンス
 * このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます。
 * このパッケージのコードは、下記のスライド群 (CC-BY-SA 4.0 by Ryuichi Ueda) のlesson8,lesson10,lesson11のものを、本人の許可を得て自身の著作としたものです。
 	* [ryuichiueda/my_slides robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
