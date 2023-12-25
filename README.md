@@ -2,7 +2,7 @@
 
 このレポジトリは、ロボットシステム学の課題2提出用リポジトリです。
 
-[![test](https://github.com/yodaishiota/robosys2023_mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/yodaishiota/robosys2023_mypkg/actions/workflows/test.yml)
+[![test](https://github.com/yodaishiota/mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/yodaishiota/mypkg/actions/workflows/test.yml)
 
 ## 機能について
 パブリッシャーのtalkerとサブスクライバーのlistener間の通信の様子を確認する
@@ -75,13 +75,12 @@
 こちらの方法でも同様の動作が確認できます。
 
 # 開発環境
-Ubuntu 20.04
-ROS 2 Foxy
+* Ubuntu 20.04
+* ROS 2 Foxy
 
 # テスト環境
-Ubuntu 22.04
-ROS 2 Humble
-
+* Ubuntu 22.04
+* ROS 2 Humble
 
 # ライセンス
 * このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます。
