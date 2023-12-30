@@ -27,12 +27,7 @@
 > $ cd ros2_ws/src
 > $ git clone https://github.com/yodaishiota/mypkg.git
 > ```
-> さらに以下のコードを実行することで、事前準備が完了します。
-> ```
-> $ cd ~/ros2_ws
-> $ colcon build
-> $ source ~/.bashrc
-> ```
+>これで事前準備は完了です。
 
 ## 使用方法
 ### talkerとlistenerを個別で立ち上げる方法
